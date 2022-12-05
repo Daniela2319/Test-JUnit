@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.dani.JUnit.EcolhendoAOrdemTeste" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-05T22:38:16" hostname="DESKTOP-ORQ6LHV" time="0.03">
+  <properties/>
+  <testcase name="validarFluxoD()" classname="edu.dani.JUnit.EcolhendoAOrdemTeste" time="0.023"/>
+  <testcase name="validarFluxoC()" classname="edu.dani.JUnit.EcolhendoAOrdemTeste" time="0.002"/>
+  <testcase name="validarFluxoB()" classname="edu.dani.JUnit.EcolhendoAOrdemTeste" time="0.001"/>
+  <testcase name="validarFluxoA()" classname="edu.dani.JUnit.EcolhendoAOrdemTeste" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
