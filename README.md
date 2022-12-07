@@ -2,7 +2,7 @@
 
 ## Testes Unitários com JUnit
 
-Os testes unitários são essenciais. Sem eles, você está pisando sobre casca de ovos o tempo todo. j
+Os testes unitários são essenciais. Sem eles, você está pisando sobre casca de ovos o tempo todo. 
 
 Situações no desenvolvimento de software que mostram a importância de testes unitários:
 
@@ -15,19 +15,34 @@ Situações no desenvolvimento de software que mostram a importância de testes 
 
 Assertions é uma coleção de método utilitário que suportam a declaração de condições em testes.
 
+| Método | Descrição | 
+|-|-|
+|**assertEquals(a,b)** | Compara dois valores |
+| **assertFalse(a)** | Avalia uma expressão booleana|
+| **assertTrue(a)**| Avalia uma expressão booleana|
+| **assertNotNull(a)**| Compara uma variavel com nulo|
+| **assertNull(a)**| Compara uma variavel com nulo|
+| **assertNotSame**| Compara dois objetos|
+| **fail**| Causa uma falha no teste atual|
+
+
+
+
 ## Estrutura Básica
 
-class **PessoaTeste** {
+```
+class PessoaTeste {
 
-**@Test** //-> Anotação é primordial para testar
+@Test //-> Anotação é primordial para testar
 
-**void** validarVerificacaoDeMaioridade() {
+void validarVerificacaoDeMaioridade() {
 
-   **Pessoa** pessoa = new **Pessoa** ("João", LocalDate.of(2004,1,1)); // -> cria um cenário
+   Pessoa pessoa = new Pessoa ("João", LocalDate.of(2004,1,1)); // -> cria um cenário
    
     Assertions.assertTrue(pessoa.ehMaiorDeIdade()); // -> Executa as validações
  }
  }
+ ```
  
  ## After e Before
  
