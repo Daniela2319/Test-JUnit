@@ -38,4 +38,10 @@ class **PessoaTeste** {
  Após a notação funciona após os métodos de teste. A operação mais comum na notação After é que valores nulos são enviados para os valores atribuídos
  toda vez após os métodos de teste.
  
+ ### Assumptions
+ Assumptionse é uma coleção de métodos utilitários que oferecem suporte a execução de teste condicional com base em suposições.
+ 
+ 
+ 
+ 
  
