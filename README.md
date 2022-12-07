@@ -2,7 +2,9 @@
 
 ## Testes Unitários com JUnit
 
-Situações no desenvolvimento de software que mostram a importância de testes unitários
+Os testes unitários são essenciais. Sem eles, você está pisando sobre casca de ovos o tempo todo. j
+
+Situações no desenvolvimento de software que mostram a importância de testes unitários:
 
 * Compreender o código fonte
 * Corrigir bugs com segurança
@@ -27,5 +29,13 @@ class **PessoaTeste** {
  }
  }
  
+ ## After e Before
+ 
+ ###Before
+ Os métodos @Before são executados antes de cada teste, isso é útil quando executa algum código comum antes de executar um teste.
+ 
+ ###After
+ Após a notação funciona após os métodos de teste. A operação mais comum na notação After é que valores nulos são enviados para os valores atribuídos
+ toda vez após os métodos de teste.
  
  
